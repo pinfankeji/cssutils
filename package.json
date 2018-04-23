@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "CSS库开发脚手架",
   "scripts": {
-    "dev": "gulp del:css && gulp scss",
-    "watch": "gulp del:css && gulp scss && gulp watch",
+    "compile": "gulp del:css && gulp scss",
+    "dev": "gulp del:css && gulp scss && gulp watch",
     "build": "gulp del:dist && gulp build",
     "clear": "gulp del:css && gulp del:dist"
   },
