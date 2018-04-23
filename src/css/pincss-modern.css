@@ -1,0 +1,50 @@
+/*!
+ *
+ * {name} {description}
+ * Version: {version}
+ * Author: {author}
+ * Repository: {repository}
+ * Homepage: {homepage}
+ * Date: {date}
+ *
+ */
+body {
+    background-color: #eeeeee;
+    color: #000000;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-none {
+    float: none;
+}
+
+.transition-1 {
+    -webkit-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.transition-2 {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.transition-3 {
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.transition-5 {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}

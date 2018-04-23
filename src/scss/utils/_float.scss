@@ -1,0 +1,5 @@
+@each $prop in (left, right, none) {
+  .float-#{$prop} {
+    float: $prop;
+  }
+}

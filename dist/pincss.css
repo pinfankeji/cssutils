@@ -1,0 +1,50 @@
+/*!
+ *
+ * PinCSS 网页开发基础CSS库
+ * Version: 1.0.0
+ * Author: 雨中歌者
+ * Repository: git+https://github.com/pinfankeji/pincss.git
+ * Homepage: https://github.com/pinfankeji/pincss#readme
+ * Date: 2018-04-23 06:21:33
+ *
+ */
+body {
+    background-color: #eeeeee;
+    color: #000000;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-none {
+    float: none;
+}
+
+.transition-1 {
+    -webkit-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.transition-2 {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.transition-3 {
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.transition-5 {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
