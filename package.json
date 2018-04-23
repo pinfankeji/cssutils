@@ -1,0 +1,23 @@
+{
+  "name": "pincss",
+  "version": "1.0.0",
+  "description": "网页开发基础CSS库",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinfankeji/pincss.git"
+  },
+  "keywords": [
+    "web",
+    "css"
+  ],
+  "author": "雨中歌者",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinfankeji/pincss/issues"
+  },
+  "homepage": "https://github.com/pinfankeji/pincss#readme"
+}
