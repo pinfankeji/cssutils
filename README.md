@@ -1,8 +1,13 @@
-# 关于
+# BaseCSS
 
 一个简单的CSS库开发脚手架。
 
 基于Gulp构建。
+
+## 功能
+
+- 编译 `sass` 源文件
+- 生成压缩文件
 
 ## 使用
 
@@ -15,6 +20,11 @@
 - 构建分发 `npm run build`
 - 编译源码 `npm run compile`
 - 清空目录 `npm run clear`
+
+## TODO
+
+- 测试
+- DEMO
 
 ## License
 
