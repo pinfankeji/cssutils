@@ -1,15 +1,16 @@
 {
-  "name": "PinCSS",
+  "name": "BaseCSS",
   "version": "1.0.0",
-  "description": "网页开发基础CSS库",
+  "description": "CSS库开发脚手架",
   "scripts": {
     "dev": "gulp del:css && gulp scss",
     "watch": "gulp del:css && gulp scss && gulp watch",
-    "build": "gulp del:dist && gulp build"
+    "build": "gulp del:dist && gulp build",
+    "clear": "gulp del:css && gulp del:dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinfankeji/pincss.git"
+    "url": "git+https://github.com/pinfankeji/basecss.git"
   },
   "keywords": [
     "web",
@@ -18,9 +19,9 @@
   "author": "雨中歌者",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pinfankeji/pincss/issues"
+    "url": "https://github.com/pinfankeji/basecss/issues"
   },
-  "homepage": "https://github.com/pinfankeji/pincss#readme",
+  "homepage": "https://github.com/pinfankeji/basecss#readme",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
