@@ -23,7 +23,7 @@
 
 ## TODO
 
-- 测试
+- Test
 - DEMO
 
 ## License
