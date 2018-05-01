@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "一个简单的CSS库开发脚手架",
   "scripts": {
-    "compile": "gulp del:css && gulp scss",
-    "dev": "gulp del:css && gulp scss && gulp watch",
-    "build": "gulp del:dist && gulp del:css && gulp scss && gulp build",
-    "clear": "gulp del:css && gulp del:dist"
+    "compile": "gulp del:css && gulp compile",
+    "watch": "gulp del:css && gulp compile && gulp watch",
+    "dev": "gulp del:css && gulp compile && gulp server",
+    "build": "gulp del:dist && gulp build",
+    "clear": "gulp del:css && gulp del:dist",
+    "server": "gulp server"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   },
   "homepage": "https://github.com/pinfankeji/basecss#readme",
   "devDependencies": {
+    "browser-sync": "^2.24.1",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
