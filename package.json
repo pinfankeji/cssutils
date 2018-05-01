@@ -1,6 +1,6 @@
 {
   "name": "BaseCSS",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "一个简单的CSS库开发脚手架",
   "scripts": {
     "compile": "gulp del:css && gulp compile",
