@@ -19,7 +19,9 @@
 - 开发模式 `npm run dev`
 - 构建分发 `npm run build`
 - 编译源码 `npm run compile`
+- 实时编译 `npm run watch`
 - 清空目录 `npm run clear`
+- 静态服务器 `npm run server`
 
 ## TODO
 
