@@ -1,0 +1,50 @@
+// Spacing
+
+@each $prop, $abbrev in (margin: m, padding: p) {
+  @each $size, $length in $spacers {
+
+    .#{$prefix}#{$abbrev}-#{$size} {
+      #{$prop}: $length !important;
+    }
+    .#{$prefix}#{$abbrev}t-#{$size},
+    .#{$prefix}#{$abbrev}y-#{$size} {
+      #{$prop}-top: $length !important;
+    }
+    .#{$prefix}#{$abbrev}r-#{$size},
+    .#{$prefix}#{$abbrev}x-#{$size} {
+      #{$prop}-right: $length !important;
+    }
+    .#{$prefix}#{$abbrev}b-#{$size},
+    .#{$prefix}#{$abbrev}y-#{$size} {
+      #{$prop}-bottom: $length !important;
+    }
+    .#{$prefix}#{$abbrev}l-#{$size},
+    .#{$prefix}#{$abbrev}x-#{$size} {
+      #{$prop}-left: $length !important;
+    }
+  }
+}
+
+.#{$prefix}m-auto {
+  margin: auto !important;
+}
+
+.#{$prefix}mt-auto,
+.#{$prefix}my-auto {
+  margin-top: auto !important;
+}
+
+.#{$prefix}mr-auto,
+.#{$prefix}mx-auto {
+  margin-right: auto !important;
+}
+
+.#{$prefix}mb-auto,
+.#{$prefix}my-auto {
+  margin-bottom: auto !important;
+}
+
+.#{$prefix}ml-auto,
+.#{$prefix}mx-auto {
+  margin-left: auto !important;
+}

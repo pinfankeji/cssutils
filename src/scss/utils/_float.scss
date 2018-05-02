@@ -1,0 +1,7 @@
+// Float
+
+@each $prop in (left, right, none) {
+  .#{$prefix}float-#{$prop} {
+    float: $prop !important;
+  }
+}

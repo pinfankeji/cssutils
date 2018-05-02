@@ -1,33 +1,49 @@
-# BaseCSS
+# BaseUtils
 
-一个简单的CSS库开发脚手架。
+收集整理Web开发中常用的CSS工具类。
 
-基于Gulp构建。
+其中的大多数类取自 `Bootstrap`, `Ant Design`等流行的前端框架。
 
-## 功能
+## 感谢
 
-- 编译 `sass` 源文件
-- 生成压缩文件
+感谢这些优秀的开源框架：
 
-## 使用
+- Bootstrap
+- Ant Design
 
-1. `$ npm i`
-1. `$ npm run dev`
+## 主要工具类
 
-## 其它命令
+- Alignment
+- Background
+- Border
+- ClearFix
+- Close Icon
+- Display
+- Float
+- Horizontal Line
+- Image
+- List
+- Position
+- Shadows
+- Sizing
+- Spacing
+- Text
+- Typography
+- Visibility
 
-- 开发模式 `npm run dev`
-- 构建分发 `npm run build`
-- 编译源码 `npm run compile`
-- 实时编译 `npm run watch`
-- 清空目录 `npm run clear`
-- 静态服务器 `npm run server`
+## 浏览器兼容性
+
+支持IE9以上及其它现代主流浏览器
 
 ## TODO
 
-- Test
+- 测试
 - DEMO
 
 ## License
 
 MIT
+
+## Copyright
+
+无版权，随便使用。

@@ -1,0 +1,81 @@
+// Position
+
+@each $position in (static, relative, absolute, fixed, sticky) {
+  .#{$prefix}position-#{$position} {
+    position: $position !important;
+  }
+}
+
+.#{$prefix}fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.#{$prefix}fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.#{$prefix}sticky-top {
+  @supports (position: sticky) {
+    position: sticky;
+    top: 0;
+  }
+}
+
+.#{$prefix}absolute-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.#{$prefix}absolute-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.#{$prefix}absolute-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.#{$prefix}absolute-left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.#{$prefix}absolute-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.#{$prefix}absolute-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.#{$prefix}absolute-bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.#{$prefix}absolute-bottom-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+

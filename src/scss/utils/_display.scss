@@ -1,0 +1,23 @@
+// Display
+
+.#{$prefix}d-none         { display: none !important; }
+.#{$prefix}d-inline       { display: inline !important; }
+.#{$prefix}d-inline-block { display: inline-block !important; }
+.#{$prefix}d-block        { display: block !important; }
+.#{$prefix}d-table        { display: table !important; }
+.#{$prefix}d-table-row    { display: table-row !important; }
+.#{$prefix}d-table-cell   { display: table-cell !important; }
+.#{$prefix}d-flex         { display: flex !important; }
+.#{$prefix}d-inline-flex  { display: inline-flex !important; }
+
+@media print {
+  .#{$prefix}d-print-none         { display: none !important; }
+  .#{$prefix}d-print-inline       { display: inline !important; }
+  .#{$prefix}d-print-inline-block { display: inline-block !important; }
+  .#{$prefix}d-print-block        { display: block !important; }
+  .#{$prefix}d-print-table        { display: table !important; }
+  .#{$prefix}d-print-table-row    { display: table-row !important; }
+  .#{$prefix}d-print-table-cell   { display: table-cell !important; }
+  .#{$prefix}d-print-flex         { display: flex !important; }
+  .#{$prefix}d-print-inline-flex  { display: inline-flex !important; }
+}

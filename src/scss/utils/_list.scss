@@ -1,0 +1,21 @@
+// Lists
+
+// Unstyled lists
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+// Inline lists
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+
+  &:not(:last-child) {
+    margin-right: $list-inline-padding;
+  }
+}

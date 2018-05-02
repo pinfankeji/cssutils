@@ -1,0 +1,49 @@
+// Borders
+
+.#{$prefix}border {
+  border: $border-width solid $border-color !important;
+}
+
+.#{$prefix}border-top {
+  border-top: $border-width solid $border-color !important;
+}
+
+.#{$prefix}border-right {
+  border-right: $border-width solid $border-color !important;
+}
+
+.#{$prefix}border-bottom {
+  border-bottom: $border-width solid $border-color !important;
+}
+
+.#{$prefix}border-left {
+  border-left: $border-width solid $border-color !important;
+}
+
+.#{$prefix}border-0 {
+  border: 0 !important;
+}
+
+.#{$prefix}border-top-0 {
+  border-top: 0 !important;
+}
+
+.#{$prefix}border-right-0 {
+  border-right: 0 !important;
+}
+
+.#{$prefix}border-bottom-0 {
+  border-bottom: 0 !important;
+}
+
+.#{$prefix}border-left-0 {
+  border-left: 0 !important;
+}
+
+@each $colors in ($basic-colors, $named-colors, $functional-colors){
+  @each $color , $value in $colors{
+    .#{$prefix}border-#{$color} {
+      border-color: $value !important;
+    }
+  }
+}
