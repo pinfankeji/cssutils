@@ -1,7 +1,7 @@
 {
-  "name": "BaseCSS",
-  "version": "1.1.0",
-  "description": "一个简单的CSS库开发脚手架",
+  "name": "cssutils",
+  "version": "1.0.0",
+  "description": "收集整理Web开发常用的基础CSS类",
   "scripts": {
     "compile": "gulp del:css && gulp compile",
     "watch": "gulp del:css && gulp compile && gulp watch",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinfankeji/basecss.git"
+    "url": "git+https://github.com/pinfankeji/cssutils.git"
   },
   "keywords": [
     "web",
@@ -21,9 +21,9 @@
   "author": "雨中歌者",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pinfankeji/basecss/issues"
+    "url": "https://github.com/pinfankeji/cssutils/issues"
   },
-  "homepage": "https://github.com/pinfankeji/basecss#readme",
+  "homepage": "https://github.com/pinfankeji/cssutils#readme",
   "devDependencies": {
     "browser-sync": "^2.24.1",
     "del": "^3.0.0",
