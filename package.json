@@ -1,7 +1,7 @@
 {
   "name": "CssUtils",
   "version": "1.0.0",
-  "description": "收集整理Web开发常用的基础CSS类",
+  "description": "收集整理Web开发中常用的CSS工具类",
   "scripts": {
     "compile": "gulp del:css && gulp compile",
     "watch": "gulp del:css && gulp compile && gulp watch",

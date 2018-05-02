@@ -1,10 +1,10 @@
 /*!
- * CssUtils 收集整理Web开发常用的基础CSS类
+ * CssUtils 收集整理Web开发中常用的CSS工具类
  * Version: 1.0.0
  * Author: 雨中歌者
  * Repository: git+https://github.com/pinfankeji/cssutils.git
  * Homepage: https://github.com/pinfankeji/cssutils#readme
- * Date: 2018-05-02 10:35:18
+ * Date: 2018-05-02 10:53:32
  */
 .align-baseline {
     vertical-align: baseline !important;
@@ -615,6 +615,24 @@ hr {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
     max-width: 100%;
     height: auto;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
 }
 
 .position-static {
@@ -1328,6 +1346,74 @@ a.text-danger:hover, a.text-danger:focus {
 
 .text-white-50 {
     color: rgba(255, 255, 255, 0.5) !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+h1, .h1 {
+    font-size: 2.5rem;
+}
+
+h2, .h2 {
+    font-size: 2rem;
+}
+
+h3, .h3 {
+    font-size: 1.75rem;
+}
+
+h4, .h4 {
+    font-size: 1.5rem;
+}
+
+h5, .h5 {
+    font-size: 1.25rem;
+}
+
+h6, .h6 {
+    font-size: 1rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+small,
+.small {
+    font-size: 80%;
+    font-weight: 400;
 }
 
 .visible {
