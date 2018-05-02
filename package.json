@@ -1,5 +1,5 @@
 {
-  "name": "cssutils",
+  "name": "CssUtils",
   "version": "1.0.0",
   "description": "收集整理Web开发常用的基础CSS类",
   "scripts": {
