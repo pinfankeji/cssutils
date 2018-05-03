@@ -1,0 +1,58 @@
+// Avatar
+
+.#{$prefix}avatar {
+  font-size: $avatar-size * $avatar-font-size-ratio;
+  color: $avatar-color;
+  background-color: $avatar-background;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  width: $avatar-size;
+  height: $avatar-size;
+  line-height: $avatar-size;
+  border-radius: $avatar-rounded-radius;
+}
+
+.#{$prefix}avatar-image{
+  background: transparent !important;
+}
+
+.#{$prefix}avatar > img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.#{$prefix}avatar > * {
+  line-height: $avatar-size;
+}
+
+.#{$prefix}avatar.#{$prefix}avatar-icon {
+  font-size: $avatar-size * $avatar-icon-font-size-ratio;
+}
+
+@each $abbrev, $size in $avatars {
+  .#{$prefix}avatar-#{$abbrev} {
+    font-size: $size * $avatar-font-size-ratio;
+    width: $size;
+    height: $size;
+    line-height: $size;
+    border-radius: $avatar-rounded-radius;
+  }
+
+  .#{$prefix}avatar-#{$abbrev} > * {
+    line-height: $size;
+  }
+
+  .#{$prefix}avatar-#{$abbrev}.#{$prefix}avatar-icon {
+    font-size: $size * $avatar-icon-font-size-ratio;
+  }
+}
+

@@ -47,3 +47,39 @@
     }
   }
 }
+
+// Border radius
+
+.#{$prefix}rounded {
+  border-radius: $border-radius !important;
+}
+
+.#{$prefix}rounded-top,
+.#{$prefix}rounded-left,
+.#{$prefix}rounded-top-left{
+  border-top-left-radius: $border-radius !important;
+}
+
+.#{$prefix}rounded-top,
+.#{$prefix}rounded-right,
+.#{$prefix}rounded-top-right{
+  border-top-right-radius: $border-radius !important;
+}
+
+.#{$prefix}rounded-bottom,
+.#{$prefix}rounded-right,
+.#{$prefix}rounded-bottom-right{
+  border-bottom-right-radius: $border-radius !important;
+}
+
+.#{$prefix}rounded-bottom,
+.#{$prefix}rounded-left,
+.#{$prefix}rounded-bottom-left{
+  border-bottom-left-radius: $border-radius !important;
+}
+
+@each $abbrev,$size in $border-radiuses{
+  .#{$prefix}rounded-#{$abbrev}{
+    border-radius: $size !important;
+  }
+}
