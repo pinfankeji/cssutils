@@ -4,7 +4,7 @@
  * Author: 雨中歌者
  * Repository: git+https://github.com/pinfankeji/cssutils.git
  * Homepage: https://github.com/pinfankeji/cssutils#readme
- * Date: 2018-05-02 10:57:44
+ * Date: 2018-05-03 02:39:11
  */
 .align-baseline {
     vertical-align: baseline !important;
@@ -28,6 +28,93 @@
 
 .align-text-top {
     vertical-align: text-top !important;
+}
+
+.avatar {
+    font-size: 0.8rem;
+    color: #f8f9fa;
+    background-color: #6c757d;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 0.25rem;
+}
+
+.avatar-image {
+    background: transparent !important;
+}
+
+.avatar > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.avatar > * {
+    line-height: 2rem;
+}
+
+.avatar.avatar-icon {
+    font-size: 1.2rem;
+}
+
+.avatar-sm {
+    font-size: 0.6rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border-radius: 0.25rem;
+}
+
+.avatar-sm > * {
+    line-height: 1.5rem;
+}
+
+.avatar-sm.avatar-icon {
+    font-size: 0.9rem;
+}
+
+.avatar-md {
+    font-size: 0.8rem;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 0.25rem;
+}
+
+.avatar-md > * {
+    line-height: 2rem;
+}
+
+.avatar-md.avatar-icon {
+    font-size: 1.2rem;
+}
+
+.avatar-lg {
+    font-size: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-radius: 0.25rem;
+}
+
+.avatar-lg > * {
+    line-height: 2.5rem;
+}
+
+.avatar-lg.avatar-icon {
+    font-size: 1.5rem;
 }
 
 .bg-white {
@@ -464,6 +551,54 @@ button.bg-danger:focus {
     border-color: #dc3545 !important;
 }
 
+.rounded {
+    border-radius: 0.25rem !important;
+}
+
+.rounded-top,
+.rounded-left,
+.rounded-top-left {
+    border-top-left-radius: 0.25rem !important;
+}
+
+.rounded-top,
+.rounded-right,
+.rounded-top-right {
+    border-top-right-radius: 0.25rem !important;
+}
+
+.rounded-bottom,
+.rounded-right,
+.rounded-bottom-right {
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+.rounded-bottom,
+.rounded-left,
+.rounded-bottom-left {
+    border-bottom-left-radius: 0.25rem !important;
+}
+
+.rounded-0 {
+    border-radius: 0 !important;
+}
+
+.rounded-sm {
+    border-radius: 0.125rem !important;
+}
+
+.rounded-md {
+    border-radius: 0.25rem !important;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
 .clearfix::after {
     display: block;
     clear: both;
@@ -593,6 +728,42 @@ button.close {
 
 .float-none {
     float: none !important;
+}
+
+.font-family-sans-serif {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif !important;
+}
+
+.font-family-monospace {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
+
+.font-size-lg {
+    font-size: 1.25rem !important;
+}
+
+.font-size-base {
+    font-size: 1rem !important;
+}
+
+.font-size-sm {
+    font-size: 0.875rem !important;
+}
+
+.font-weight-light {
+    font-weight: 300 !important;
+}
+
+.font-weight-normal {
+    font-weight: 400 !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+.font-style-italic {
+    font-style: italic !important;
 }
 
 hr {
@@ -1106,10 +1277,6 @@ hr {
     margin-left: auto !important;
 }
 
-.text-monospace {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
 .text-left {
     text-align: left !important;
 }
@@ -1146,22 +1313,6 @@ hr {
 
 .text-capitalize {
     text-transform: capitalize !important;
-}
-
-.font-weight-light {
-    font-weight: 300 !important;
-}
-
-.font-weight-normal {
-    font-weight: 400 !important;
-}
-
-.font-weight-bold {
-    font-weight: 700 !important;
-}
-
-.font-italic {
-    font-style: italic !important;
 }
 
 .text-white {
